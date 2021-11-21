@@ -20,34 +20,34 @@
 
   - html/
 
-    -- ltr/
-      --- horizontal-menu-template/
-      --- horizontal-menu-template-dark/
-      --- horizontal-collapsed-menu-template/
-      --- vertical-menu-template/
-      --- horizontal-menu-template-dark/
-    -- rtl/
-      --- horizontal-menu-template/
-      --- horizontal-menu-template-dark/
-      --- horizontal-collapsed-menu-template/
-      --- vertical-menu-template/
-      --- horizontal-menu-template-dark/
+    - ltr/
+      - horizontal-menu-template/
+      - horizontal-menu-template-dark/
+      - horizontal-collapsed-menu-template/
+      - vertical-menu-template/
+      - horizontal-menu-template-dark/
+    - rtl/
+      - horizontal-menu-template/
+      - horizontal-menu-template-dark/
+      - horizontal-collapsed-menu-template/
+      - vertical-menu-template/
+      - horizontal-menu-template-dark/
 
   - node_modules/
 
   - src/
 
-    -- css/
-      --- components/
-      --- core/
-      --- pages/
-      --- plugins/
-      --- themes/
-    -- js/
-      --- core/
-        ---- libraries/
-      --- scripts/
-        ---- pages
+    - css/
+      - components/
+      - core/
+      - pages/
+      - plugins/
+      - themes/
+    - js/
+      - core/
+        - libraries/
+      - scripts/
+        - pages
 
   - starter-kit/
   - .gitignore
