@@ -69,13 +69,13 @@
   ```
 - [×] create folder structure
 - [×] create webpack config files
-- [] set project's commands
+- [×] set project's commands
   ```json
     "dev": "webpack serve --config ./webpackConfig/webpack.config.js --env env=dev --progress",
     "start": "webpack --config ./webpackConfig/webpack.config.js --env env=dev --progress",
     "build": "webpack --config ./webpackConfig/webpack.config.js --env env=prod --progress",
   ```
-- [] work with webpack config file
+- [×] work with webpack config file
   ```js
     const {merge} = require('webpack-merge');
     const commonConfig = require('./webpack.common.js');
@@ -85,7 +85,7 @@
       return merge(commonConfig, envConfig);
     }
   ```
-- [] work with webpack-dev config file
+- [×] work with webpack-dev config file
   ```js
   // webpack.dev.js: Webpack configuration only used by development mode.
   const path = require("path");
@@ -118,14 +118,14 @@
     },
   };
   ```
-- [] work with webpack-prod config file
+- [×] work with webpack-prod config file
   ```js
   // webpack.prod.js: Webpack configuration only used by production mode.
   module.exports = {
     mode: "production",
   };
   ```
-- [] work with webpack-common config file
+- [×] work with webpack-common config file
   - define entry, output
     ```js
     // webpack.common.js: shared Webpack configuration for development and production mode.
@@ -213,7 +213,7 @@
     ```js
       module.exports = {
         ...,
-        plugins: [new CleanWebpackPlugin()].concat(generateHtmlPlugins("html")),
+        plugins: generateHtmlPlugins("html"),
       }
     ```
     ```js
