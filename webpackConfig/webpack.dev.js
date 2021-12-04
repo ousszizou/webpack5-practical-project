@@ -6,11 +6,7 @@ module.exports = {
   devtool: "eval-source-map",
   devServer: {
     static: {
-      directory: path.resolve(
-        __dirname,
-        "../",
-        "dist/ltr/horizontal-menu-template/"
-      ),
+      directory: path.resolve(__dirname, "../", "dist"),
       watch: true,
     },
     port: 9000,
